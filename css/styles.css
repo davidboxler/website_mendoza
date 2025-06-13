@@ -146,6 +146,7 @@ nav .fa {
         color: #fff;
         margin: 10px;
         font-size: 22px;
+        padding-right: 1rem;
         cursor: pointer;
     }
 
@@ -304,6 +305,12 @@ h2 {
     line-height: 1.6;
 }
 
+@media (max-width: 399px) {
+    .programs .row {
+        margin: auto 50px;
+    }
+}
+
 .links-contacts {
     background-color: white;
     text-align: center;
@@ -424,6 +431,18 @@ h2 {
 
 .location .course-col #btn-contact {
     margin-top: 15px;
+}
+
+@media (max-width: 399px) {
+    .location .row {
+        margin: 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 520px) {
+    .location .row {
+        margin: auto 50px;
+    }
 }
 
 
